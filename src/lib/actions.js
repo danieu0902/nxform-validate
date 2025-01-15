@@ -49,7 +49,7 @@ export async function realAction(prevState, formData) {
         // Hacemos algo (guardar en BD, enviar a API, ...) con
         // result.data
         console.log(result.data);
-        return { success: 'Éxito al realizar acción' }
+        return { success: 'datos enviados correctamente' }
     } catch (error) {
         console.log("Error:", error);
         return { error }
